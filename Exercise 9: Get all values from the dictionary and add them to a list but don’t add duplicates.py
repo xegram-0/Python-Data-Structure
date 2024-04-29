@@ -9,6 +9,11 @@
 def get_value(speed:dict):
     valueList:list = list(dict.fromkeys(speed.values()))
     print(f"The result: {valueList}")
+
+    # for val in speed.values():
+    # check if value not present in a list
+    # if val not in speed_list:
+    #     speed_list.append(val)
 def main():
     speed = {'jan': 47, 
              'feb': 52, 
